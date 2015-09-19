@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BCE3EBD1BAD262F00D91100 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE3EBC1BAD262F00D91100 /* AppDelegate.swift */; };
+		4BCE3EBF1BAD262F00D91100 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE3EBE1BAD262F00D91100 /* ViewController.swift */; };
+		4BCE3EC21BAD262F00D91100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BCE3EC01BAD262F00D91100 /* Main.storyboard */; };
+		4BCE3EC41BAD262F00D91100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BCE3EC31BAD262F00D91100 /* Assets.xcassets */; };
+		4BCE3EC71BAD262F00D91100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BCE3EC51BAD262F00D91100 /* LaunchScreen.storyboard */; };
+		4BCE3ED21BAD262F00D91100 /* SilverAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE3ED11BAD262F00D91100 /* SilverAppTests.swift */; };
+		4BCE3EDD1BAD262F00D91100 /* SilverAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE3EDC1BAD262F00D91100 /* SilverAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BCE3ECE1BAD262F00D91100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BCE3EB11BAD262F00D91100 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BCE3EB81BAD262F00D91100;
+			remoteInfo = SilverApp;
+		};
+		4BCE3ED91BAD262F00D91100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BCE3EB11BAD262F00D91100 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BCE3EB81BAD262F00D91100;
+			remoteInfo = SilverApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BCE3EB91BAD262F00D91100 /* SilverApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilverApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCE3EBC1BAD262F00D91100 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BCE3EBE1BAD262F00D91100 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BCE3EC11BAD262F00D91100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BCE3EC31BAD262F00D91100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BCE3EC61BAD262F00D91100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BCE3EC81BAD262F00D91100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BCE3ECD1BAD262F00D91100 /* SilverAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilverAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCE3ED11BAD262F00D91100 /* SilverAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilverAppTests.swift; sourceTree = "<group>"; };
+		4BCE3ED31BAD262F00D91100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BCE3ED81BAD262F00D91100 /* SilverAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilverAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCE3EDC1BAD262F00D91100 /* SilverAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilverAppUITests.swift; sourceTree = "<group>"; };
+		4BCE3EDE1BAD262F00D91100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BCE3EB61BAD262F00D91100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCE3ECA1BAD262F00D91100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCE3ED51BAD262F00D91100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BCE3EB01BAD262F00D91100 = {
+			isa = PBXGroup;
+			children = (
+				4BCE3EBB1BAD262F00D91100 /* SilverApp */,
+				4BCE3ED01BAD262F00D91100 /* SilverAppTests */,
+				4BCE3EDB1BAD262F00D91100 /* SilverAppUITests */,
+				4BCE3EBA1BAD262F00D91100 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BCE3EBA1BAD262F00D91100 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BCE3EB91BAD262F00D91100 /* SilverApp.app */,
+				4BCE3ECD1BAD262F00D91100 /* SilverAppTests.xctest */,
+				4BCE3ED81BAD262F00D91100 /* SilverAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BCE3EBB1BAD262F00D91100 /* SilverApp */ = {
+			isa = PBXGroup;
+			children = (
+				4BCE3EBC1BAD262F00D91100 /* AppDelegate.swift */,
+				4BCE3EBE1BAD262F00D91100 /* ViewController.swift */,
+				4BCE3EC01BAD262F00D91100 /* Main.storyboard */,
+				4BCE3EC31BAD262F00D91100 /* Assets.xcassets */,
+				4BCE3EC51BAD262F00D91100 /* LaunchScreen.storyboard */,
+				4BCE3EC81BAD262F00D91100 /* Info.plist */,
+			);
+			path = SilverApp;
+			sourceTree = "<group>";
+		};
+		4BCE3ED01BAD262F00D91100 /* SilverAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BCE3ED11BAD262F00D91100 /* SilverAppTests.swift */,
+				4BCE3ED31BAD262F00D91100 /* Info.plist */,
+			);
+			path = SilverAppTests;
+			sourceTree = "<group>";
+		};
+		4BCE3EDB1BAD262F00D91100 /* SilverAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BCE3EDC1BAD262F00D91100 /* SilverAppUITests.swift */,
+				4BCE3EDE1BAD262F00D91100 /* Info.plist */,
+			);
+			path = SilverAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BCE3EB81BAD262F00D91100 /* SilverApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BCE3EE11BAD262F00D91100 /* Build configuration list for PBXNativeTarget "SilverApp" */;
+			buildPhases = (
+				4BCE3EB51BAD262F00D91100 /* Sources */,
+				4BCE3EB61BAD262F00D91100 /* Frameworks */,
+				4BCE3EB71BAD262F00D91100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SilverApp;
+			productName = SilverApp;
+			productReference = 4BCE3EB91BAD262F00D91100 /* SilverApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BCE3ECC1BAD262F00D91100 /* SilverAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BCE3EE41BAD262F00D91100 /* Build configuration list for PBXNativeTarget "SilverAppTests" */;
+			buildPhases = (
+				4BCE3EC91BAD262F00D91100 /* Sources */,
+				4BCE3ECA1BAD262F00D91100 /* Frameworks */,
+				4BCE3ECB1BAD262F00D91100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BCE3ECF1BAD262F00D91100 /* PBXTargetDependency */,
+			);
+			name = SilverAppTests;
+			productName = SilverAppTests;
+			productReference = 4BCE3ECD1BAD262F00D91100 /* SilverAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BCE3ED71BAD262F00D91100 /* SilverAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BCE3EE71BAD262F00D91100 /* Build configuration list for PBXNativeTarget "SilverAppUITests" */;
+			buildPhases = (
+				4BCE3ED41BAD262F00D91100 /* Sources */,
+				4BCE3ED51BAD262F00D91100 /* Frameworks */,
+				4BCE3ED61BAD262F00D91100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BCE3EDA1BAD262F00D91100 /* PBXTargetDependency */,
+			);
+			name = SilverAppUITests;
+			productName = SilverAppUITests;
+			productReference = 4BCE3ED81BAD262F00D91100 /* SilverAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BCE3EB11BAD262F00D91100 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Silver;
+				TargetAttributes = {
+					4BCE3EB81BAD262F00D91100 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					4BCE3ECC1BAD262F00D91100 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 4BCE3EB81BAD262F00D91100;
+					};
+					4BCE3ED71BAD262F00D91100 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 4BCE3EB81BAD262F00D91100;
+					};
+				};
+			};
+			buildConfigurationList = 4BCE3EB41BAD262F00D91100 /* Build configuration list for PBXProject "SilverApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BCE3EB01BAD262F00D91100;
+			productRefGroup = 4BCE3EBA1BAD262F00D91100 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BCE3EB81BAD262F00D91100 /* SilverApp */,
+				4BCE3ECC1BAD262F00D91100 /* SilverAppTests */,
+				4BCE3ED71BAD262F00D91100 /* SilverAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BCE3EB71BAD262F00D91100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCE3EC71BAD262F00D91100 /* LaunchScreen.storyboard in Resources */,
+				4BCE3EC41BAD262F00D91100 /* Assets.xcassets in Resources */,
+				4BCE3EC21BAD262F00D91100 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCE3ECB1BAD262F00D91100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCE3ED61BAD262F00D91100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BCE3EB51BAD262F00D91100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCE3EBF1BAD262F00D91100 /* ViewController.swift in Sources */,
+				4BCE3EBD1BAD262F00D91100 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCE3EC91BAD262F00D91100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCE3ED21BAD262F00D91100 /* SilverAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCE3ED41BAD262F00D91100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCE3EDD1BAD262F00D91100 /* SilverAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BCE3ECF1BAD262F00D91100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BCE3EB81BAD262F00D91100 /* SilverApp */;
+			targetProxy = 4BCE3ECE1BAD262F00D91100 /* PBXContainerItemProxy */;
+		};
+		4BCE3EDA1BAD262F00D91100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BCE3EB81BAD262F00D91100 /* SilverApp */;
+			targetProxy = 4BCE3ED91BAD262F00D91100 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BCE3EC01BAD262F00D91100 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BCE3EC11BAD262F00D91100 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BCE3EC51BAD262F00D91100 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BCE3EC61BAD262F00D91100 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BCE3EDF1BAD262F00D91100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BCE3EE01BAD262F00D91100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BCE3EE21BAD262F00D91100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SilverApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Silver.SilverApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4BCE3EE31BAD262F00D91100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SilverApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Silver.SilverApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4BCE3EE51BAD262F00D91100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SilverAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Silver.SilverAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SilverApp.app/SilverApp";
+			};
+			name = Debug;
+		};
+		4BCE3EE61BAD262F00D91100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SilverAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Silver.SilverAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SilverApp.app/SilverApp";
+			};
+			name = Release;
+		};
+		4BCE3EE81BAD262F00D91100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SilverAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Silver.SilverAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SilverApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4BCE3EE91BAD262F00D91100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SilverAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Silver.SilverAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SilverApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BCE3EB41BAD262F00D91100 /* Build configuration list for PBXProject "SilverApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCE3EDF1BAD262F00D91100 /* Debug */,
+				4BCE3EE01BAD262F00D91100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BCE3EE11BAD262F00D91100 /* Build configuration list for PBXNativeTarget "SilverApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCE3EE21BAD262F00D91100 /* Debug */,
+				4BCE3EE31BAD262F00D91100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4BCE3EE41BAD262F00D91100 /* Build configuration list for PBXNativeTarget "SilverAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCE3EE51BAD262F00D91100 /* Debug */,
+				4BCE3EE61BAD262F00D91100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4BCE3EE71BAD262F00D91100 /* Build configuration list for PBXNativeTarget "SilverAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCE3EE81BAD262F00D91100 /* Debug */,
+				4BCE3EE91BAD262F00D91100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BCE3EB11BAD262F00D91100 /* Project object */;
+}
